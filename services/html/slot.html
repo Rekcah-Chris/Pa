@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Details</title>
+    <link rel="stylesheet" href="slot.css">
+    <!--Botstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!--Box Icons-->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <ul>
+                <li class="active form_4_vehicle_details">
+                    <div>
+                        <p>4</p>
+                    </div>
+                </li>
+                </li>
+            </ul>
+        </div>
+        <div class="form_wrap">
+            <div class="form_4 data_info">
+                <div class="form_4 data_info">
+                    <h2>Parking Slot</h2>
+                    <form>
+                        <div class="form_container">
+                            <div class="input_wrap">
+                                <label for="parking_slot_id">Slot Id</label>
+                                <input type="text" name="Parking Slot Id" id="parking_slot_id">
+                            </div>
+                            <div class="input_wrap">
+                                <label for="parking_slot_type">Type</label>
+                                <input type="text" name="Parking Slot Type" id="parking_slot_type">
+                            </div>
+                            <div class="input_wrap">
+                                <label for="parking_slot_car_number">Slot Number</label>
+                                <input type="text" name="Parking Slot Car Number" id="parking_slot_car_number">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="btns_wrap">
+                <div class="common_btns form_2_btns">
+                    <button type="button" class="btn_back">
+                        <span class="icon">
+                            <i class="fa fa-arrow-right"></i>
+                        </span>
+                        Back
+                    </button>
+                    <button type="button" class="btn_done">
+                        <span class="icon">
+                            <i class="fa fa-arrow-left"></i>
+                        </span>
+                        Done
+                    </button>
+                </div>
+            </div>
+            <div id="thankyou" style="display:none;">
+                <h2>Thank you for</h2>
+                <p>We look Forward To Serve your needs</p>
+            </div>
+        </div>
+    </div>
+    <script src="slot.js"></script>
+</body>
+
+</html>
